@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f3f4f6;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #232f3e;
+  color: #ff9900;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+main {
+  flex: 1;
+  text-align: center;
+  padding: 25px;
+}
+
+main h2 {
+  color: #232f3e;
+}
+
+label {
+  font-weight: bold;
+}
+
+select,
+input {
+  padding: 9px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+button {
+  background-color: #ff9900;
+  color: #232f3e;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #e68a00;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.product-card {
+  background-color: white;
+  border: 2px solid #ff9900;
+  border-radius: 10px;
+  width: 320px;
+  max-width: 100%;
+  margin: 25px auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-card h2 {
+  color: #232f3e;
+}
+
+.product-card h3 {
+  color: #b12704;
+}
+
+.empty {
+  color: #777;
+}
+
+.success {
+  color: green;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #232f3e;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+footer p {
+  margin: 0;
+}
